@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "UTF-8";NORMALIZE
 /* =================================================================== 
  * Mueller Main Stylesheet
  * Template Ver. 1.0.0
@@ -3261,7 +3261,7 @@ img.u-pull-left {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1111px) {
     .s-header {
         --logo-width : 36px;
         top          : var(--vspace-0_25);
@@ -4843,13 +4843,14 @@ img.u-pull-left {
     display: inline-block;
     white-space: nowrap;
     position: absolute;
-    left: 1.5em;
+    left: 0.5em;
     top: 50%;
     transform: translateY(-50%);
-    background: #ffffffc3;
+    background: rgba(255, 255, 255, 0.673);
     border-radius: 3em;
-    padding: 0.2em 0.6em;
+    padding: 0.3em 0.6em;
     font-size: 0.9em;
+        font-weight: bolder;
 }
 
 .cg{
@@ -4901,7 +4902,7 @@ img.u-pull-left {
         transform:
             translate(-50% , -50%)
             scale(2.5);
-        
+            color: #000000;
     }
 }
 
@@ -4911,15 +4912,26 @@ img.u-pull-left {
     }
     .box1{
         font-weight: lighter; 
-        font-size: 9px !important;
+        font-size: 7px !important;
+        
+    }
+    .box2{
+        font-weight: lighter; 
+        font-size: 7px !important;
+        
+    }
+    .box3{
+        font-weight: lighter; 
+        font-size: 7px !important;
+        
     }
 }
 
 .box1{
     /* background-color: #fff; */
-    background: transparent;
-    backdrop-filter: blur(50px);
-    color: rgb(0, 0, 0);
+    background: #493382d4;
+    backdrop-filter: invert(200);
+    color: rgb(255, 255, 255);
     width: 24%;
     height: 89px;
     display: none;
@@ -4944,9 +4956,9 @@ display: block;
 
 .box2{
     /* background-color: #fff; */
-    background: transparent;
-    backdrop-filter: blur(50px);
-    color: rgb(0, 0, 0);
+    background: #493382d4;
+    backdrop-filter: invert(200);
+    color: rgb(255, 255, 255);
     width: 24%;
     height: 9%;
     display: none;
@@ -4978,9 +4990,9 @@ display: block;
 
 .box3{
     /* background-color: #fff; */
-    background: transparent;
-    backdrop-filter: blur(50px);
-    color: rgb(0, 0, 0);
+    background: #493382d4;
+    backdrop-filter: invert(200);
+    color: rgb(255, 255, 255);
     width: 24%;
     height: 9%;
     overflow: hidden;
@@ -5017,7 +5029,7 @@ display: block;
     
 }
 .equipcharacter{
-    display: flex;
+    display: flex; 
     flex-direction: column;
 
 }
@@ -5091,12 +5103,13 @@ display: block;
 	margin-top: 0.25em;
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 1200px) {
     .character{
       
         flex-direction: column;
     
     }
+
 
 }
 
@@ -5110,6 +5123,14 @@ display: block;
 
 }
 
+@media screen and (max-width: 290px) {
+    .image{
+      
+        width: 254px;
+    
+    }
+
+}
 
 
 /* scroll */
