@@ -1,4 +1,4 @@
-@charset "UTF-8";NORMALIZE
+@charset "UTF-8";
 /* =================================================================== 
  * Mueller Main Stylesheet
  * Template Ver. 1.0.0
@@ -3132,7 +3132,7 @@ img.u-pull-left {
 .s-header__menu-links a {
     display             : block;
     font-family         : var(--font-2);
-    font-size           : 1.5rem;
+    font-size           : 1.6rem;
     font-weight         : 400;
     line-height         : var(--vspace-1);
     color               : rgba(255, 255, 255, 0.6);
