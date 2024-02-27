@@ -976,30 +976,30 @@ function locomotiveAnimation() {
   }
   locomotiveAnimation();
   
-  function navbarAnimation() {
-    gsap.to("#nav-part1 img", {
-      transform: "translateY(-100%)",
-      scrollTrigger: {
-        trigger: "#page1",
-        scroller: "#main",
-        start: "top 0",
-        end: "top -5%",
-        scrub: true,
-      },
-    });
-    gsap.to("#nav-part2 #links", {
-      transform: "translateY(-100%)",
-      opacity: 0,
-      scrollTrigger: {
-        trigger: "#page1",
-        scroller: "#main",
-        start: "top 0",
-        end: "top -5%",
-        scrub: true,
-      },
-    });
-  }
-  navbarAnimation()
+  // function navbarAnimation() {
+  //   gsap.to("#nav-part1 img", {
+  //     transform: "translateY(-100%)",
+  //     scrollTrigger: {
+  //       trigger: "#page1",
+  //       scroller: "#main",
+  //       start: "top 0",
+  //       end: "top -5%",
+  //       scrub: true,
+  //     },
+  //   });
+  //   gsap.to("#nav-part2 #links", {
+  //     transform: "translateY(-100%)",
+  //     opacity: 0,
+  //     scrollTrigger: {
+  //       trigger: "#page1",
+  //       scroller: "#main",
+  //       start: "top 0",
+  //       end: "top -5%",
+  //       scrub: true,
+  //     },
+  //   });
+  // }
+  // navbarAnimation()
 
   function toggleAnimation() {
     const toggleBtn = document.querySelector('.togglebtn')

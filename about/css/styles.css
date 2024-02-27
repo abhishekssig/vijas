@@ -3057,7 +3057,7 @@ img.u-pull-left {
 .s-header.sticky {
     opacity          : 0;
     visibility       : hidden;
-    background-color : var(--color-gray-19);
+    background-color : rgb(21, 83, 175);
     position         : fixed;
     top              : 0;
     left             : 0;
