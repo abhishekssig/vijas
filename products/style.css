@@ -17,7 +17,7 @@ body{
 .wrapper .container{
     max-width: 1400px;
     margin: 0 auto;
-    padding: 20px;
+    
 }
 .category-filter{
     margin-top: 40px;
@@ -332,11 +332,12 @@ body{
 }
 section{
     padding: 100px 200px;
+    margin-bottom: -55px;/**/
 }
 .home{
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 70vh; /**/
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -349,15 +350,15 @@ section{
     position: absolute;
     background:transparent;
     width: 100%;   
-    height: 100%;
+  
     top: 0;
     left: 0;
 }
 .home .content{
     z-index:888 ;
     color: #fff;
-    width: 70%;
-    margin-top: 50px;
+   /**/
+    margin-top: 5px;/**/
     display: none;
 }
 .home .content.active{
@@ -379,7 +380,7 @@ section{
 .home .content p{
     margin-bottom: 15px;
     font-size: 1.2em;
-    font-weight: 500;
+    font-weight: 300;
 }
 .home .content h1{
     margin-bottom: 20px;
@@ -389,7 +390,7 @@ section{
     background-color: #1e1d1daf;
     padding: 5px 10px;
     color:#ffffff;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 500;
     text-decoration: none;
     border-radius:2px;
@@ -419,53 +420,10 @@ section{
     top: 0;
     left: 0;
     width: 100%;
-    height: 90%;
+    height: 75%;  /**/
     object-fit: cover;
    
     
-}
-.slider-navigation{
-    z-index: 888;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translateY(80px);
-    margin-bottom: 12px;
-}
-.slider-navigation .nav-btn{
-    width: 12px;
-    height: 12px;
-    background: #fff;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: 0 0 2px rgba(255,255, 255,0.5);
-    transition: 0.3s ease;
-}
-.slider-navigation .nav-btn.active{
-    background: #e4e8ec;
-}
-
-.slider-navigation .nav-btn:not(:last-child){
-    margin-right: 20px;
-}
-
-.slider-navigation .nav-btn:hover{
-    transform: scale(1.2);
-    transform: scale(1.2);
-   
-}
-.video-slide{
-    position: absolute;
-    width: 100%;
-    clip-path: circle(0% at 0 50%);
-}
-
-.video-slide.active{
-    clip-path: circle(150% at 0 50%);
-    transition: 2s ease;
-    transition-property: clip-path;
-
 }
 
 
