@@ -692,6 +692,8 @@ header nav a{
     /* text-shadow: 2px 0 #fff , -2px 0 #fff , 0 2px  #fff , 0 -2px #fff,
     1px 1px #fff , -1px -1px #fff , 1px -1px #fff  , -1px 1px #fff  ; */
     /* -webkit-text-stroke: #000000 0.2px; */
+	font-size: 32px;
+
 }
 
 .india{
@@ -1165,7 +1167,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 32px;
 	}
 
 		h1.major {
