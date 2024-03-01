@@ -4,6 +4,8 @@ body{
 	line-height: 1.25;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
+	background-image: url('/asset/bg.jpg');
+	
 }
 body.hidden-scrolling{
 	overflow-y: hidden;
@@ -1375,7 +1377,7 @@ display: block;
   /* gallery */
   .gallery {
 	max-width: 1000px;
-	margin: 20px auto;
+	margin: 20px 10px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 10px;
@@ -1683,7 +1685,7 @@ textarea{
   }
   .main-content .box{
 	flex-basis: 50%;
-	padding: 10px 20px;
+	padding: 10px 65px;
   }
   .box h2{
 	font-size: 1.125rem;
