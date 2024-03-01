@@ -423,13 +423,14 @@
               // Send confirmation email to the user
               const dynamicContent = {
                   from_name: First_Name,
-                  reply_to: "anubhav6488@gmail.com",
+                  reply_to: "vijas.indore@gmail.com",
                   email:email,
                   message: message
               };
   
-              const emailResponse1 = await emailjs.send("service_tkn5p4g", "template_i07fh9n", dynamicContent, "DKX7-n3XYxGuVJ9H7");
-              console.log("Email sent to user successfully:", emailResponse1);
+              const emailResponse1 = await emailjs.send("service_7ey6xc6", "template_6w3arp4", dynamicContent, "F0Jvn3kqM_wIkCmCU");
+                console.log("Email sent to user successfully:", emailResponse1);
+
   
               // Send another email with form data to a different recipient
           //     const hardcodedContent = {
@@ -470,6 +471,11 @@
         v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
     })(document, 'script');
   </script>
+
+
+
+
+
 
 
 
